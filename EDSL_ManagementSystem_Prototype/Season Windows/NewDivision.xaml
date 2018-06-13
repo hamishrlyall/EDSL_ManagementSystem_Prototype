@@ -1,0 +1,35 @@
+﻿<Window x:Class="EDSL_ManagementSystem_Prototype.NewDivision"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EDSL_ManagementSystem_Prototype"
+        mc:Ignorable="d"
+        Title="NewDivision"  Height="350" Width="525">
+    <Grid RenderTransformOrigin="0.506,0.39">
+        <Button Content="Season" HorizontalAlignment="Left" Height="34" Margin="10,10,0,0" VerticalAlignment="Top" Width="82"/>
+        <StackPanel HorizontalAlignment="Left" Height="90" Margin="10,10,0,0" VerticalAlignment="Top" Width="82"/>
+        <Button Content="Results" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="82" Height="34"/>
+        <StackPanel HorizontalAlignment="Left" Height="309" VerticalAlignment="Top" Width="110"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="110"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="206" Margin="0,113,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button Content="Clubs" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Width="82" Height="34"/>
+        <Button Content="Teams" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Width="82" Height="34"/>
+        <Button Content="Players" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top" Width="82" Height="34"/>
+        <Button Content="Reports" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top" Width="82" Height="34"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="44" Margin="110,0,0,0" VerticalAlignment="Top" Width="407">
+            <Label Content="EDSL Division Creator" FontSize="16" Padding="2" HorizontalAlignment="Center" Height="44" Margin="-1,-1,0,-1" VerticalAlignment="Center" Width="406"/>
+        </Border>
+        <Button Content="Main Menu" HorizontalAlignment="Left" Margin="115,51,0,0" VerticalAlignment="Top" Width="75"/>
+        <ListBox HorizontalAlignment="Left" BorderBrush="Black" BorderThickness="1" Height="146" Margin="115,118,0,0" VerticalAlignment="Top" Width="75"/>
+        <ListBox HorizontalAlignment="Left" BorderBrush="Black" BorderThickness="1" Height="146" Margin="195,118,0,0" VerticalAlignment="Top" Width="75" SelectionChanged="ListBox_SelectionChanged"/>
+        <Label Content="Division Teams" FontSize="9" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="115,81,0,0" VerticalAlignment="Top" Width="75" Height="32"/>
+        <Label Content="Other Teams" FontSize="9" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="195,81,0,0" VerticalAlignment="Top" Width="75" Height="32"/>
+        <Button Content="Remove Team" FontSize="9" HorizontalAlignment="Left" Margin="115,269,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.088,0.153"/>
+        <Button Content="Add Team" FontSize="9" HorizontalAlignment="Left" Margin="195,269,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Save Details" HorizontalAlignment="Left" Margin="434,285,0,0" VerticalAlignment="Top" Width="73" Height="24" Click="Button_Click"/>
+        <TextBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="24" Margin="454,81,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="53"/>
+        <Label Content="Division Name" FontSize="10" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="353,81,0,0" VerticalAlignment="Top" Width="96" Height="24"/>
+        <Button Content="Season Manager" FontSize="9" HorizontalAlignment="Left" Margin="195,51,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+    </Grid>
+</Window>

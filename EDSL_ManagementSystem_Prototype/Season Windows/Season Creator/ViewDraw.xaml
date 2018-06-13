@@ -1,0 +1,27 @@
+﻿<Window x:Class="EDSL_ManagementSystem_Prototype.Season_Windows.Season_Creator.ViewDraw"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EDSL_ManagementSystem_Prototype.Season_Windows.Season_Creator"
+        mc:Ignorable="d"
+        Title="ViewDraw" Height="350" Width="525">
+    <Grid>
+        <Button Content="Season" HorizontalAlignment="Left" Height="34" Margin="10,10,0,0" VerticalAlignment="Top" Width="82"/>
+        <StackPanel HorizontalAlignment="Left" Height="90" Margin="10,10,0,0" VerticalAlignment="Top" Width="82"/>
+        <Button Content="Results" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="82" Height="34"/>
+        <StackPanel HorizontalAlignment="Left" Height="309" VerticalAlignment="Top" Width="110"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="110"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="206" Margin="0,113,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button Content="Clubs" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Width="82" Height="34"/>
+        <Button Content="Teams" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Width="82" Height="34"/>
+        <Button Content="Players" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top" Width="82" Height="34"/>
+        <Button Content="Reports" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top" Width="82" Height="34"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="44" Margin="110,0,0,0" VerticalAlignment="Top" Width="407">
+            <Label Content="Draw Viewer" FontSize="16" Padding="2" HorizontalAlignment="Center" Height="44" Margin="-1,-1,0,-1" VerticalAlignment="Center" Width="406"/>
+        </Border>
+        <Button Content="Season Creator" FontSize="9" HorizontalAlignment="Left" Margin="195,51,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="Button_Click"/>
+        <Button Content="Main Menu" HorizontalAlignment="Left" Margin="115,51,0,0" VerticalAlignment="Top" Width="75"/>
+        <DataGrid HorizontalAlignment="Left" Height="233" Margin="115,76,0,0" VerticalAlignment="Top" Width="392"/>
+    </Grid>
+</Window>
