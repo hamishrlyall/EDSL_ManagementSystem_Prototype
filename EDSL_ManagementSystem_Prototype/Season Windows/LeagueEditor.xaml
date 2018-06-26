@@ -28,10 +28,9 @@
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="44" Margin="118,1,0,0" VerticalAlignment="Top" Width="407">
             <Label Content="League Editor" FontSize="16" Padding="2" HorizontalAlignment="Center" Height="44" Margin="-1" VerticalAlignment="Center" Width="407"/>
         </Border>
-        <Button Content="Save Details" HorizontalAlignment="Left" Margin="434,285,0,0" VerticalAlignment="Top" Width="73" Height="24" Click="Button_Click"/>
+        <Button x:Name="SaveDetailsButton" Content="Save Details" HorizontalAlignment="Left" Margin="115,201,0,0" VerticalAlignment="Top" Width="73" Height="24" Click="SaveDetailsButton_Click"/>
         <TextBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="24" Margin="216,81,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="96"/>
         <Label Content="League Name" FontSize="10" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="115,81,0,0" VerticalAlignment="Top" Width="96" Height="24"/>
-        <Button Content="Season Manager" FontSize="9" HorizontalAlignment="Left" Margin="195,51,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
         <Label Content="League Admin Name" FontSize="9" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="115,113,0,0" VerticalAlignment="Top" Width="96" Height="24"/>
         <Label Content="League Admin Phone" FontSize="9" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="115,142,0,0" VerticalAlignment="Top" Width="96" Height="24"/>
         <TextBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="24" Margin="216,110,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="96"/>

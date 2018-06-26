@@ -54,5 +54,10 @@ namespace EDSL_ManagementSystem_Prototype
         {
             this.NavigationService.Navigate(new Reports());
         }
+        
+        private void SaveDetailsButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Details Saved.");
+        }
     }
 }

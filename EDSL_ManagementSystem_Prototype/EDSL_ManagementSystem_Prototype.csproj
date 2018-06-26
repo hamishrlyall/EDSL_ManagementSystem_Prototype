@@ -75,6 +75,9 @@
     <Compile Include="Results Windows\Results.xaml.cs">
       <DependentUpon>Results.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Season Windows\Season Creator\DivisionEditor.xaml.cs">
+      <DependentUpon>DivisionEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Season Windows\Season Creator\ViewDraw.xaml.cs">
       <DependentUpon>ViewDraw.xaml</DependentUpon>
     </Compile>
@@ -124,6 +127,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Results Windows\Results.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Season Windows\Season Creator\DivisionEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

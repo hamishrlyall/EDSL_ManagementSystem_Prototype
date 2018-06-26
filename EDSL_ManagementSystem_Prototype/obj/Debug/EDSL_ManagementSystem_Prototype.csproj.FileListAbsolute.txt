@@ -34,14 +34,11 @@ D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSyst
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\bin\Debug\EDSL_ManagementSystem_Prototype.pdb
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Club Windows\Clubs.baml
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Results Windows\ViewLadder.baml
-D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Division Editor.baml
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\LeagueEditor.baml
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\MainWindow.baml
-D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\NewDivision.baml
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Player Windows\Players.baml
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Reports Windows\Reports.baml
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Results Windows\Results.baml
-D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season Creator\SelectDates.baml
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season Creator\ViewDraw.baml
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season.baml
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season Creator\SeasonCreator.baml
@@ -53,3 +50,5 @@ D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSyst
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype.csproj.CoreCompileInputs.cache
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype.exe
 D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype.pdb
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season Creator\DivisionEditor.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season Creator\DivisionEditor.baml

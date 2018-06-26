@@ -7,11 +7,15 @@
         mc:Ignorable="d"
         Title="SeasonCreator" Height="350" Width="525">
     <Grid>
-        <Border BorderBrush="Black" BorderThickness="1" Margin="0,1,0,0"/>
-        <Button x:Name="SeasonButton" Content="Season" HorizontalAlignment="Left" Height="34" Margin="10,11,0,0" VerticalAlignment="Top" Width="82" Click="SeasonButton_Click"/>
-        <Button x:Name="ResultsButton" Content="Results" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="ResultsButton_Click"/>
-        <StackPanel HorizontalAlignment="Left" Height="350" VerticalAlignment="Top" Width="118" Margin="0,1,0,0"/>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="349" Margin="0,1,0,0" VerticalAlignment="Top" Width="117" RenderTransformOrigin="0.5,0.5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="512*"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="0,1,0,0" Grid.ColumnSpan="2"/>
+        <Button x:Name="SeasonButton" Content="Season" HorizontalAlignment="Left" Height="34" Margin="10,11,0,0" VerticalAlignment="Top" Width="82" Click="SeasonButton_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="ResultsButton" Content="Results" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="ResultsButton_Click" Grid.ColumnSpan="2"/>
+        <StackPanel HorizontalAlignment="Left" Height="350" VerticalAlignment="Top" Width="118" Margin="0,1,0,-1" Grid.ColumnSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="349" Margin="0,1,0,0" VerticalAlignment="Top" Width="117" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
             <Border.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -21,20 +25,20 @@
                 </TransformGroup>
             </Border.RenderTransform>
         </Border>
-        <Button x:Name="ClubsButton" Content="Clubs" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="Button_Click"/>
-        <Button x:Name="TeamsButton" Content="Teams" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="TeamsButton_Click"/>
-        <Button x:Name="PlayersButton" Content="Players" HorizontalAlignment="Left" Margin="10,169,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="PlayersButton_Click"/>
-        <Button x:Name="ReportsButton" Content="Reports" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="ReportsButton_Click"/>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="44" Margin="118,1,0,0" VerticalAlignment="Top" Width="407">
+        <Button x:Name="ClubsButton" Content="Clubs" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="Button_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="TeamsButton" Content="Teams" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="TeamsButton_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="PlayersButton" Content="Players" HorizontalAlignment="Left" Margin="10,169,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="PlayersButton_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="ReportsButton" Content="Reports" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="ReportsButton_Click" Grid.ColumnSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="44" Margin="105,1,0,0" VerticalAlignment="Top" Width="407" Grid.Column="1">
             <Label Content="Season Manager" FontSize="16" Padding="2" HorizontalAlignment="Center" Height="44" Margin="-1" VerticalAlignment="Center" Width="407"/>
         </Border>
-        <Button Content="Save Details" HorizontalAlignment="Left" Margin="440,316,0,0" VerticalAlignment="Top" Width="75" Height="24" Click="Button_Click" RenderTransformOrigin="0.785,1.692"/>
-        <Label Content="Start Date" FontSize="9" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="123,56,0,0" VerticalAlignment="Top" Width="96" Height="24"/>
-        <Label Content="No. of Rounds" FontSize="9" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="123,89,0,0" VerticalAlignment="Top" Width="96" Height="24"/>
-        <TextBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="24" Margin="224,56,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="96"/>
-        <TextBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="24" Margin="224,89,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="96"/>
-        <Button x:Name="CreateDrawButton" Content="Create Draw" HorizontalAlignment="Left" Margin="440,266,0,0" VerticalAlignment="Top" Width="75" Click="CreateDrawButton_Click"/>
-        <Button x:Name="ViewDrawButton" Content="View Draw" HorizontalAlignment="Left" Margin="440,291,0,0" VerticalAlignment="Top" Width="75" Click="ViewDrawButton_Click"/>
-        <Button x:Name="CreateSeasonButton" Content="Create Season" HorizontalAlignment="Left" Margin="224,118,0,0" VerticalAlignment="Top" Width="96"/>
+        <Button x:Name="SaveDetailsButton" Content="Save Details" HorizontalAlignment="Left" Margin="427,316,0,0" VerticalAlignment="Top" Width="75" Height="24" RenderTransformOrigin="0.785,1.692" Grid.Column="1" Click="SaveDetailsButton_Click"/>
+        <Label Content="Start Date" FontSize="9" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="110,56,0,0" VerticalAlignment="Top" Width="96" Height="24" Grid.Column="1"/>
+        <Label Content="No. of Rounds" FontSize="9" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="110,89,0,0" VerticalAlignment="Top" Width="96" Height="24" Grid.Column="1"/>
+        <TextBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="24" Margin="211,56,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="96" Grid.Column="1"/>
+        <TextBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="24" Margin="211,89,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="96" Grid.Column="1"/>
+        <Button x:Name="CreateDrawButton" Content="Create Draw" HorizontalAlignment="Left" Margin="427,266,0,0" VerticalAlignment="Top" Width="75" Click="CreateDrawButton_Click" Grid.Column="1"/>
+        <Button x:Name="ViewDrawButton" Content="View Draw" HorizontalAlignment="Left" Margin="427,291,0,0" VerticalAlignment="Top" Width="75" Click="ViewDrawButton_Click" Grid.Column="1"/>
+        <Button x:Name="CreateSeasonButton" Content="Create Season" HorizontalAlignment="Left" Margin="211,118,0,0" VerticalAlignment="Top" Width="96" Grid.Column="1"/>
     </Grid>
 </Page>

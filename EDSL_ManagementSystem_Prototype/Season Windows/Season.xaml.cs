@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using EDSL_ManagementSystem_Prototype.Results_Windows;
 using EDSL_ManagementSystem_Prototype.Season_Windows;
+using EDSL_ManagementSystem_Prototype.Season_Windows.Season_Creator;
 
 namespace EDSL_ManagementSystem_Prototype
 {
@@ -29,11 +30,6 @@ namespace EDSL_ManagementSystem_Prototype
         private void SetupSeasonButton_Click(object sender, RoutedEventArgs e)
         {
             this.NavigationService.Navigate(new SeasonCreator());
-        }
-
-        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
         }
 
         private void ResultsButton_Click(object sender, RoutedEventArgs e)
@@ -66,6 +62,68 @@ namespace EDSL_ManagementSystem_Prototype
             this.NavigationService.Navigate(new Reports());
         }
 
+        private void ManageLeagueButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (LeagueListBox.Text == "EDSL")
+            {
+                this.NavigationService.Navigate(new LeagueEditor());
+            }
+            else
+            {
+                MessageBox.Show("No League selected.");
+            }
+        }
 
+        private void SetLeagueButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(LeagueListBox.Text == "EDSL")
+            {
+                MessageBox.Show("League Set!");
+            }
+            else
+            {
+                MessageBox.Show("No League selected.");
+            }
+        }
+
+        private void SetDivisionButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(LeagueListBox.Text == "EDSL" && DivisionListBox.Text == "Gold")
+            {
+                MessageBox.Show("Division Set!");
+            }
+            else if (LeagueListBox.Text == "EDSL" && DivisionListBox.Text == "Blue")
+            {
+                MessageBox.Show("Division Set!");
+            }
+            else if (LeagueListBox.Text == "EDSL" && DivisionListBox.Text == "Red")
+            {
+                MessageBox.Show("Division Set!");
+            }
+            else
+            {
+                MessageBox.Show("No League/Division selected.");
+            }
+
+        }
+        private void ManageDivisionButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (LeagueListBox.Text == "EDSL" && DivisionListBox.Text == "Gold")
+            {
+                this.NavigationService.Navigate(new DivisionEditor());
+            }
+            else if (LeagueListBox.Text == "EDSL" && DivisionListBox.Text == "Blue")
+            {
+                this.NavigationService.Navigate(new DivisionEditor());
+            }
+            else if (LeagueListBox.Text == "EDSL" && DivisionListBox.Text == "Red")
+            {
+                this.NavigationService.Navigate(new DivisionEditor());
+            }
+            else
+            {
+                MessageBox.Show("No League/Division selected.");
+            }
+        }
     }
 }

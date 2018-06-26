@@ -10,19 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
-using EDSL_ManagementSystem_Prototype.Results_Windows;
-using EDSL_ManagementSystem_Prototype.Season_Windows;
-using EDSL_ManagementSystem_Prototype.Season_Windows.Season_Creator;
 
-namespace EDSL_ManagementSystem_Prototype.Season_Windows
+namespace EDSL_ManagementSystem_Prototype.Season_Windows.Season_Creator
 {
     /// <summary>
-    /// Interaction logic for SeasonCreator.xaml
+    /// Interaction logic for DivisionEditor.xaml
     /// </summary>
-    public partial class SeasonCreator : Page
+    public partial class DivisionEditor : Page
     {
-        public SeasonCreator()
+        public DivisionEditor()
         {
             InitializeComponent();
         }
@@ -57,19 +55,9 @@ namespace EDSL_ManagementSystem_Prototype.Season_Windows
             this.NavigationService.Navigate(new Reports());
         }
 
-        private void CreateDrawButton_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Draw Created! Click View Draw.");
-        }
-
-        private void ViewDrawButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.NavigationService.Navigate(new ViewDraw());
-        }
-
         private void SaveDetailsButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Details Saved!");
+            MessageBox.Show("Details Saved.");
         }
     }
 }
