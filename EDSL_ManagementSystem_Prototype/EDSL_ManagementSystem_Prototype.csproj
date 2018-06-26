@@ -57,17 +57,14 @@
     <Compile Include="Club Windows\Clubs.xaml.cs">
       <DependentUpon>Clubs.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EDSLHomePage.xaml.cs">
+      <DependentUpon>EDSLHomePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Results Windows\ViewLadder.xaml.cs">
       <DependentUpon>ViewLadder.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Season Windows\Division Editor.xaml.cs">
-      <DependentUpon>Division Editor.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Season Windows\LeagueEditor.xaml.cs">
       <DependentUpon>LeagueEditor.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Season Windows\NewDivision.xaml.cs">
-      <DependentUpon>NewDivision.xaml</DependentUpon>
     </Compile>
     <Compile Include="Player Windows\Players.xaml.cs">
       <DependentUpon>Players.xaml</DependentUpon>
@@ -77,9 +74,6 @@
     </Compile>
     <Compile Include="Results Windows\Results.xaml.cs">
       <DependentUpon>Results.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Season Windows\Season Creator\SelectDates.xaml.cs">
-      <DependentUpon>SelectDates.xaml</DependentUpon>
     </Compile>
     <Compile Include="Season Windows\Season Creator\ViewDraw.xaml.cs">
       <DependentUpon>ViewDraw.xaml</DependentUpon>
@@ -97,11 +91,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Results Windows\ViewLadder.xaml">
+    <Page Include="EDSLHomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Season Windows\Division Editor.xaml">
+    <Page Include="Results Windows\ViewLadder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -121,10 +115,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Season Windows\NewDivision.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Player Windows\Players.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -134,10 +124,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Results Windows\Results.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Season Windows\Season Creator\SelectDates.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

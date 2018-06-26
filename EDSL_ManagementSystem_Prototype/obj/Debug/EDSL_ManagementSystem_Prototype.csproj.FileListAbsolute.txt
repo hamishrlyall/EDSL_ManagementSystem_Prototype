@@ -13,3 +13,43 @@ C:\Users\STUDENT\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSys
 C:\Users\STUDENT\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\App.g.cs
 C:\Users\STUDENT\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype_MarkupCompile.cache
 C:\Users\STUDENT\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype_MarkupCompile.lref
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype.csprojAssemblyReference.cache
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Club Windows\Clubs.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSLHomePage.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Results Windows\ViewLadder.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\LeagueEditor.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\MainWindow.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Player Windows\Players.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Reports Windows\Reports.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Results Windows\Results.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season Creator\ViewDraw.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season Creator\SeasonCreator.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Team Windows\Teams.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\App.g.cs
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype_MarkupCompile.cache
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype_MarkupCompile.lref
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\bin\Debug\EDSL_ManagementSystem_Prototype.exe.config
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\bin\Debug\EDSL_ManagementSystem_Prototype.exe
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\bin\Debug\EDSL_ManagementSystem_Prototype.pdb
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Club Windows\Clubs.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Results Windows\ViewLadder.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Division Editor.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\LeagueEditor.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\MainWindow.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\NewDivision.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Player Windows\Players.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Reports Windows\Reports.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Results Windows\Results.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season Creator\SelectDates.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season Creator\ViewDraw.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Season Windows\Season Creator\SeasonCreator.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\Team Windows\Teams.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSLHomePage.baml
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype.g.resources
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype.Properties.Resources.resources
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype.csproj.GenerateResource.cache
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype.csproj.CoreCompileInputs.cache
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype.exe
+D:\Users\Hamish\source\repos\EDSL_ManagementSystem_Prototype\EDSL_ManagementSystem_Prototype\obj\Debug\EDSL_ManagementSystem_Prototype.pdb

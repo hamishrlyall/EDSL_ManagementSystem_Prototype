@@ -1,4 +1,4 @@
-﻿<Window x:Class="EDSL_ManagementSystem_Prototype.Season_Windows.Season_Creator.SelectDates"
+﻿<Page x:Class="EDSL_ManagementSystem_Prototype.Season_Windows.Season_Creator.SelectDates"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -22,7 +22,6 @@
         </Border>
         <Button Content="Save Details" HorizontalAlignment="Left" Margin="434,285,0,0" VerticalAlignment="Top" Width="73" Height="24" Click="Button_Click"/>
         <Button Content="Season Creator" FontSize="9" HorizontalAlignment="Left" Margin="195,51,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="Button_Click"/>
-        <Button Content="Main Menu" HorizontalAlignment="Left" Margin="115,51,0,0" VerticalAlignment="Top" Width="75"/>
         <Calendar HorizontalAlignment="Left" Margin="212,97,0,0" VerticalAlignment="Top"/>
     </Grid>
-</Window>
+</Page>

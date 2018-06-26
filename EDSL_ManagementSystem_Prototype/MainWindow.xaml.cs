@@ -12,22 +12,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using EDSL_ManagementSystem_Prototype.Results_Windows;
+using EDSL_ManagementSystem_Prototype.Season_Windows;
 
 namespace EDSL_ManagementSystem_Prototype
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : NavigationWindow
     {
         public MainWindow()
         {
             InitializeComponent();
+
+            this.NavigationService.Navigate(new EDSLHomePage());
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

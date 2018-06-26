@@ -11,17 +11,48 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using EDSL_ManagementSystem_Prototype.Results_Windows;
+using EDSL_ManagementSystem_Prototype.Season_Windows;
 
 namespace EDSL_ManagementSystem_Prototype
 {
     /// <summary>
     /// Interaction logic for Players.xaml
     /// </summary>
-    public partial class Players : Window
+    public partial class Players : Page
     {
         public Players()
         {
             InitializeComponent();
+        }
+        private void ResultsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Results());
+        }
+
+        private void SeasonButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Season());
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Clubs());
+        }
+
+        private void TeamsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Teams());
+        }
+
+        private void PlayersButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Players());
+        }
+
+        private void ReportsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Reports());
         }
     }
 }

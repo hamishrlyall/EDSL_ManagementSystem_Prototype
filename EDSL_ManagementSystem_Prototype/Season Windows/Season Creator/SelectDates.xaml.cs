@@ -17,16 +17,40 @@ namespace EDSL_ManagementSystem_Prototype.Season_Windows.Season_Creator
     /// <summary>
     /// Interaction logic for SelectDates.xaml
     /// </summary>
-    public partial class SelectDates : Window
+    public partial class SelectDates : Page
     {
         public SelectDates()
         {
             InitializeComponent();
         }
+        private void ResultsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Results());
+        }
+
+        private void SeasonButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Season());
+        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            this.NavigationService.Navigate(new Clubs());
+        }
 
+        private void TeamsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Teams());
+        }
+
+        private void PlayersButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Players());
+        }
+
+        private void ReportsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Reports());
         }
     }
 }

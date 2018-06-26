@@ -10,16 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
+using EDSL_ManagementSystem_Prototype.Results_Windows;
+using EDSL_ManagementSystem_Prototype.Season_Windows;
 
 namespace EDSL_ManagementSystem_Prototype
 {
     /// <summary>
-    /// Interaction logic for NewDivision.xaml
+    /// Interaction logic for EDSLHomePage.xaml
     /// </summary>
-    public partial class NewDivision : Page
+    public partial class EDSLHomePage : Page
     {
-        public NewDivision()
+        public EDSLHomePage()
         {
             InitializeComponent();
         }
